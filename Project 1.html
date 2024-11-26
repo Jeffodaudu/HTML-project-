@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our School</h1>
+        <p>Excellence and Integrity in Education</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h2>Welcome to Our School</h2>
+            <p>Our school is dedicated to providing a well-rounded education that prepares students for success in life and beyond.</p>
+            <img src="school-building.jpg" alt="School Building" class="responsive-image">
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <style>
+            p{color:green;>
+            </style>
+            <p style="color:red;">Founded in [Year], our school has a mission to foster a supportive learning environment where students can reach their full potential. We believe in holistic education that combines academics, sports, and arts.</p>
+        </section>
+
+        <!-- Academics Section -->
+        <section id="academics" class="section">
+            <h2>Academics</h2>
+            <p>We offer a diverse range of programs from sciences to humanities, designed to meet the needs of every student. Our qualified teachers are committed to academic excellence and to nurturing each student's talents.</p>
+            <ul>
+                <li>Primary Education</li>
+                <li>Secondary Education</li>
+                <li>Advanced Placement Courses</li>
+                <li>Extracurricular Activities</li>
+            </ul>
+        </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="section">
+            <h2>Admissions</h2>
+            <style>
+            p{text-align:center;}
+            </style>
+            <p>Interested in joining our school? Explore the admissions process below.</p>
+            <h3>Admission Requirements</h3>
+            <ul>
+                <li>Completed Application Form</li>
+                <li>Previous School Transcripts</li>
+                <li>Entrance Exam</li>
+            </ul>
+            <p><a href="admissions.html" class="button">Learn More</a></p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>For more information, please reach out via email or phone.</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Our School. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
